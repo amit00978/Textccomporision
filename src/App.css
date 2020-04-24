@@ -1,0 +1,50 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #100f46;
+  overflow-y: auto;
+}
+
+
+
+.concur-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tweet-box {
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+
+
+
+
+.concur-box {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 80px;
+  padding: 20px 40px;
+  overflow-y: auto;
+}
+
+@media(max-width:640px) {
+  .concur-box {
+    width:100%;
+    display: block;
+    padding: 5px 8px;
+  }
+  #twitter-widget-0 {
+    width:400px !important;
+  }
+}
