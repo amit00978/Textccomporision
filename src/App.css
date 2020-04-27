@@ -47,4 +47,11 @@
   #twitter-widget-0 {
     width:400px !important;
   }
+
+  .twitter-tweet {
+    width:100% !important;
+  }
+  .EmbeddedTweet {
+    min-width: 200px !important;
+  }
 }
